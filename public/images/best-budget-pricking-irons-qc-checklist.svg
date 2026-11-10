@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Budget pricking iron quality check checklist</title>
+<desc id="desc">A six-item checklist for inspecting a budget pricking iron on arrival.</desc>
+<rect x="0" y="0" width="1200" height="675" rx="0" fill="#f7efe4" stroke="none" stroke-width="0" opacity="1"/>
+<circle cx="1040" cy="120" r="220" fill="#efe2d2" stroke="none" stroke-width="0"/>
+    <text x="64" y="82" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#5e2f12" text-anchor="start" opacity="1" letter-spacing="3">ON ARRIVAL</text>
+    <text x="64" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">Six checks before you stitch.</text>
+    <text x="64" y="194" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">A budget iron can be good. Inspect it like a budget iron.</text>
+  <rect x="67" y="239" width="1080" height="370" rx="18" fill="#000" stroke="none" stroke-width="0" opacity="0.06"/><rect x="60" y="230" width="1080" height="370" rx="18" fill="#fffaf2" stroke="#d9cbbd" stroke-width="1.5" opacity="1"/>
+  <g>
+    <circle cx="114" cy="278" r="14" fill="#3f6b4a" stroke="none" stroke-width="0"/>
+    <path d="M 107 278 L 112 283 L 121 272" fill="none" stroke="#fffdf9" stroke-width="3" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="140" y="285" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="500" fill="#241a14" text-anchor="start" opacity="1">Teeth are aligned and evenly spaced</text>
+  </g>
+  <g>
+    <circle cx="114" cy="333" r="14" fill="#3f6b4a" stroke="none" stroke-width="0"/>
+    <path d="M 107 333 L 112 338 L 121 327" fill="none" stroke="#fffdf9" stroke-width="3" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="140" y="340" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="500" fill="#241a14" text-anchor="start" opacity="1">No burrs or rolled tips</text>
+  </g>
+  <g>
+    <circle cx="114" cy="388" r="14" fill="#3f6b4a" stroke="none" stroke-width="0"/>
+    <path d="M 107 388 L 112 393 L 121 382" fill="none" stroke="#fffdf9" stroke-width="3" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="140" y="395" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="500" fill="#241a14" text-anchor="start" opacity="1">Handle is tight, no wobble</text>
+  </g>
+  <g>
+    <circle cx="114" cy="443" r="14" fill="#3f6b4a" stroke="none" stroke-width="0"/>
+    <path d="M 107 443 L 112 448 L 121 437" fill="none" stroke="#fffdf9" stroke-width="3" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="140" y="450" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="500" fill="#241a14" text-anchor="start" opacity="1">Variant matches the listing</text>
+  </g>
+  <g>
+    <circle cx="114" cy="498" r="14" fill="#3f6b4a" stroke="none" stroke-width="0"/>
+    <path d="M 107 498 L 112 503 L 121 492" fill="none" stroke="#fffdf9" stroke-width="3" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="140" y="505" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="500" fill="#241a14" text-anchor="start" opacity="1">Return window is still open</text>
+  </g>
+  <g>
+    <circle cx="114" cy="553" r="14" fill="#3f6b4a" stroke="none" stroke-width="0"/>
+    <path d="M 107 553 L 112 558 L 121 547" fill="none" stroke="#fffdf9" stroke-width="3" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="140" y="560" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="500" fill="#241a14" text-anchor="start" opacity="1">Test on scrap leather first</text>
+  </g>
+  <text x="650" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">If any check fails,</text>
+  <text x="650" y="335" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">open a return before use.</text>
+  <text x="650" y="385" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">Do not â€œfixâ€ a burr by force.</text>
+  <text x="650" y="415" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">A return is cheaper than a ruined panel.</text>
+</svg>

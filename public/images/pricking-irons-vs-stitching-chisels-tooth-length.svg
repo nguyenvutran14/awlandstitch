@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Tooth length comparison diagram</title>
+<desc id="desc">Side profile of a short-tooth marking iron and a long-tooth stitching chisel, with leather depth marked.</desc>
+<rect x="0" y="0" width="1200" height="675" rx="0" fill="#f7efe4" stroke="none" stroke-width="0" opacity="1"/>
+<circle cx="1040" cy="120" r="220" fill="#efe2d2" stroke="none" stroke-width="0"/>
+    <text x="64" y="82" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#5e2f12" text-anchor="start" opacity="1" letter-spacing="3">TOOTH LENGTH</text>
+    <text x="64" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">Short teeth mark. Long teeth cut.</text>
+    <text x="64" y="194" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">The listing photo rarely makes this obvious.</text>
+  <rect x="67" y="254" width="1080" height="330" rx="18" fill="#000" stroke="none" stroke-width="0" opacity="0.06"/><rect x="60" y="245" width="1080" height="330" rx="18" fill="#fffaf2" stroke="#d9cbbd" stroke-width="1.5" opacity="1"/>
+  <rect x="100" y="420" width="420" height="50" rx="10" fill="#8a4b1f" stroke="none" stroke-width="0" opacity="1"/>
+  <g transform="translate(120 330) rotate(0) scale(0.9)">
+    <rect x="0" y="0" width="180" height="38" rx="19" fill="#8a4b1f" stroke="none" stroke-width="0" opacity="1"/>
+    <rect x="14" y="6" width="148" height="8" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.2"/>
+    <rect x="172" y="-2" width="18" height="42" rx="5" fill="#7d8a91" stroke="none" stroke-width="0" opacity="1"/>
+    <rect x="188" y="8" width="260" height="22" rx="4" fill="#b9c2c7" stroke="none" stroke-width="0" opacity="1"/>
+    <rect x="196" y="12" width="240" height="5" rx="2.5" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.25"/>
+    <path d="M 360 26 L 368 26 L 366 54 L 362 54 Z" fill="#b9c2c7" stroke="none" stroke-width="2" opacity="1" stroke-linecap="round" stroke-linejoin="round"/><path d="M 378 26 L 386 26 L 384 54 L 380 54 Z" fill="#b9c2c7" stroke="none" stroke-width="2" opacity="1" stroke-linecap="round" stroke-linejoin="round"/><path d="M 396 26 L 404 26 L 402 54 L 398 54 Z" fill="#b9c2c7" stroke="none" stroke-width="2" opacity="1" stroke-linecap="round" stroke-linejoin="round"/><path d="M 414 26 L 422 26 L 420 54 L 416 54 Z" fill="#b9c2c7" stroke="none" stroke-width="2" opacity="1" stroke-linecap="round" stroke-linejoin="round"/><path d="M 432 26 L 440 26 L 438 54 L 434 54 Z" fill="#b9c2c7" stroke="none" stroke-width="2" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="100" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">Marking iron</text>
+  <text x="100" y="520" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">Teeth stop at the surface.</text>
+  <text x="100" y="550" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="600" fill="#241a14" text-anchor="start" opacity="1">Leather stays intact.</text>
+  <rect x="660" y="420" width="420" height="50" rx="10" fill="#8a4b1f" stroke="none" stroke-width="0" opacity="1"/>
+  <g transform="translate(680 300) rotate(0) scale(0.9)">
+    <rect x="0" y="0" width="180" height="38" rx="19" fill="#8a4b1f" stroke="none" stroke-width="0" opacity="1"/>
+    <rect x="14" y="6" width="148" height="8" rx="4" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.2"/>
+    <rect x="172" y="-2" width="18" height="42" rx="5" fill="#7d8a91" stroke="none" stroke-width="0" opacity="1"/>
+    <rect x="188" y="8" width="260" height="22" rx="4" fill="#b9c2c7" stroke="none" stroke-width="0" opacity="1"/>
+    <rect x="196" y="12" width="240" height="5" rx="2.5" fill="#ffffff" stroke="none" stroke-width="0" opacity="0.25"/>
+    <path d="M 360 26 L 368 26 L 366 104 L 362 104 Z" fill="#b9c2c7" stroke="none" stroke-width="2" opacity="1" stroke-linecap="round" stroke-linejoin="round"/><path d="M 378 26 L 386 26 L 384 104 L 380 104 Z" fill="#b9c2c7" stroke="none" stroke-width="2" opacity="1" stroke-linecap="round" stroke-linejoin="round"/><path d="M 396 26 L 404 26 L 402 104 L 398 104 Z" fill="#b9c2c7" stroke="none" stroke-width="2" opacity="1" stroke-linecap="round" stroke-linejoin="round"/><path d="M 414 26 L 422 26 L 420 104 L 416 104 Z" fill="#b9c2c7" stroke="none" stroke-width="2" opacity="1" stroke-linecap="round" stroke-linejoin="round"/><path d="M 432 26 L 440 26 L 438 104 L 434 104 Z" fill="#b9c2c7" stroke="none" stroke-width="2" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <text x="660" y="270" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">Stitching chisel</text>
+  <text x="660" y="520" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">Teeth pass through the leather.</text>
+  <text x="660" y="550" font-family="'Segoe UI', Arial, sans-serif" font-size="17" font-weight="600" fill="#241a14" text-anchor="start" opacity="1">Holes are ready to stitch.</text>
+  <text x="60" y="625" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">If the teeth are short, you are looking at a marking tool, not a punch-through chisel.</text>
+</svg>

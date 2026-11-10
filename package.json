@@ -1,0 +1,21 @@
+{
+  "name": "awl-and-stitch",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Awl & Stitch — static leathercraft tool guide site",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/serve.mjs",
+    "check": "node scripts/check.mjs",
+    "assets": "node scripts/generate-assets.mjs",
+    "assets:og": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/generate-og.ps1"
+  },
+  "dependencies": {
+    "gray-matter": "4.0.3",
+    "markdown-it": "^14.3.3"
+  }
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Marking versus punching through diagram</title>
+<desc id="desc">Cross-section of leather showing a mark-and-awl process on the left and a chisel punching through on the right.</desc>
+<rect x="0" y="0" width="1200" height="675" rx="0" fill="#f7efe4" stroke="none" stroke-width="0" opacity="1"/>
+<circle cx="1040" cy="120" r="220" fill="#efe2d2" stroke="none" stroke-width="0"/>
+    <text x="64" y="82" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#5e2f12" text-anchor="start" opacity="1" letter-spacing="3">THE HOLE</text>
+    <text x="64" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">Mark, then awl. Or punch through.</text>
+    <text x="64" y="194" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">Two workflows, two tool designs.</text>
+  <rect x="67" y="254" width="1080" height="330" rx="18" fill="#000" stroke="none" stroke-width="0" opacity="0.06"/><rect x="60" y="245" width="1080" height="330" rx="18" fill="#fffaf2" stroke="#d9cbbd" stroke-width="1.5" opacity="1"/>
+  <rect x="100" y="380" width="420" height="90" rx="12" fill="#8a4b1f" stroke="none" stroke-width="0" opacity="1"/>
+  <line x1="100" y1="380" x2="520" y2="380" stroke="#5e2f12" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 180 380 L 180 440" fill="none" stroke="#241a14" stroke-width="3" opacity="0.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 180 380 L 170 410 L 190 410 Z" fill="#b9c2c7" stroke="none" stroke-width="2" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="100" y="330" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">1. Mark with a pricking iron</text>
+  <text x="100" y="510" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">2. Open each mark with an awl</text>
+  <text x="100" y="540" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#241a14" text-anchor="start" opacity="1">Slower, traditional, very clean.</text>
+  <rect x="660" y="380" width="420" height="90" rx="12" fill="#8a4b1f" stroke="none" stroke-width="0" opacity="1"/>
+  <line x1="660" y1="380" x2="1080" y2="380" stroke="#5e2f12" stroke-width="3" stroke-linecap="round"/>
+  <path d="M 720 360 L 720 460" fill="none" stroke="#b9c2c7" stroke-width="7" opacity="1" stroke-linecap="round" stroke-linejoin="round"/><path d="M 790 360 L 790 460" fill="none" stroke="#b9c2c7" stroke-width="7" opacity="1" stroke-linecap="round" stroke-linejoin="round"/><path d="M 860 360 L 860 460" fill="none" stroke="#b9c2c7" stroke-width="7" opacity="1" stroke-linecap="round" stroke-linejoin="round"/><path d="M 930 360 L 930 460" fill="none" stroke="#b9c2c7" stroke-width="7" opacity="1" stroke-linecap="round" stroke-linejoin="round"/><path d="M 1000 360 L 1000 460" fill="none" stroke="#b9c2c7" stroke-width="7" opacity="1" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="660" y="330" font-family="Georgia, 'Times New Roman', serif" font-size="20" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">1. Punch through with a chisel</text>
+  <text x="660" y="510" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">2. Stitch immediately</text>
+  <text x="660" y="540" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#241a14" text-anchor="start" opacity="1">Faster, modern, needs clean exit holes.</text>
+  <text x="60" y="625" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">A chisel that does not exit cleanly will tear the thread on the way back.</text>
+</svg>

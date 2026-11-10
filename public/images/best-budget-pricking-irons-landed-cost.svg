@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Budget item price comparison chart</title>
+<desc id="desc">Bar chart comparing budget item prices: WUTA 1-piece $14.79, MOZHE $22.86, and WUTA single head $8.33, with a note that shipping and duties are extra.</desc>
+<rect x="0" y="0" width="1200" height="675" rx="0" fill="#f7efe4" stroke="none" stroke-width="0" opacity="1"/>
+<circle cx="1040" cy="120" r="220" fill="#efe2d2" stroke="none" stroke-width="0"/>
+    <text x="64" y="82" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#5e2f12" text-anchor="start" opacity="1" letter-spacing="3">BUDGET MATH</text>
+    <text x="64" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">The sticker price is the start.</text>
+    <text x="64" y="194" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">Shipping and duties decide the real total.</text>
+  <rect x="67" y="244" width="1080" height="360" rx="18" fill="#000" stroke="none" stroke-width="0" opacity="0.06"/><rect x="60" y="235" width="1080" height="360" rx="18" fill="#fffaf2" stroke="#d9cbbd" stroke-width="1.5" opacity="1"/>
+  <g>
+    <rect x="150" y="340" width="90" height="130" rx="8" fill="#8a4b1f" stroke="none" stroke-width="0" opacity="1"/>
+    <text x="150" y="328" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">$8.33</text>
+    <text x="150" y="498" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#241a14" text-anchor="start" opacity="1">WUTA head</text>
+    <text x="150" y="520" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">single head</text>
+  </g>
+  <g>
+    <rect x="360" y="310" width="90" height="160" rx="8" fill="#8a4b1f" stroke="none" stroke-width="0" opacity="1"/>
+    <text x="360" y="298" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">$14.79</text>
+    <text x="360" y="498" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#241a14" text-anchor="start" opacity="1">WUTA 1pc</text>
+    <text x="360" y="520" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">US warehouse</text>
+  </g>
+  <g>
+    <rect x="570" y="270" width="90" height="200" rx="8" fill="#8a4b1f" stroke="none" stroke-width="0" opacity="1"/>
+    <text x="570" y="258" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">$22.86</text>
+    <text x="570" y="498" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="600" fill="#241a14" text-anchor="start" opacity="1">MOZHE</text>
+    <text x="570" y="520" font-family="'Segoe UI', Arial, sans-serif" font-size="13" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">Â±10%</text>
+  </g>
+  <text x="760" y="300" font-family="Georgia, 'Times New Roman', serif" font-size="22" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">All three are under $30.</text>
+  <text x="760" y="340" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">Shipping can still push one over.</text>
+  <text x="760" y="380" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">Check the variant and checkout total.</text>
+  <text x="60" y="645" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">Item prices only. Shipping and any duties are extra and vary by variant.</text>
+</svg>

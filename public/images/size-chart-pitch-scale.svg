@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Pitch scale diagram</title>
+<desc id="desc">A scale drawing of 2.7, 3.0, 3.38, 3.85, and 4.0 millimeter pricking iron pitches.</desc>
+<rect x="0" y="0" width="1200" height="675" rx="0" fill="#f7efe4" stroke="none" stroke-width="0" opacity="1"/>
+<circle cx="1040" cy="120" r="220" fill="#efe2d2" stroke="none" stroke-width="0"/>
+    <text x="64" y="82" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#5e2f12" text-anchor="start" opacity="1" letter-spacing="3">PITCH SCALE</text>
+    <text x="64" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">What 0.1mm looks like.</text>
+    <text x="64" y="194" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">Small changes in pitch change the whole rhythm.</text>
+  <rect x="67" y="254" width="1080" height="330" rx="18" fill="#000" stroke="none" stroke-width="0" opacity="0.06"/><rect x="60" y="245" width="1080" height="330" rx="18" fill="#fffaf2" stroke="#d9cbbd" stroke-width="1.5" opacity="1"/>
+  <text x="100" y="308" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">2.7mm</text>
+      <rect x="210" y="290" width="243.00000000000003" height="22" rx="6" fill="#c98f5a" stroke="none" stroke-width="0" opacity="1"/>
+      <text x="473" y="308" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">â‰ˆ9.4 SPI</text><text x="100" y="360" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">3mm</text>
+      <rect x="210" y="342" width="270" height="22" rx="6" fill="#c98f5a" stroke="none" stroke-width="0" opacity="1"/>
+      <text x="500" y="360" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">â‰ˆ8.5 SPI</text><text x="100" y="412" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">3.38mm</text>
+      <rect x="210" y="394" width="304.2" height="22" rx="6" fill="#8a4b1f" stroke="none" stroke-width="0" opacity="1"/>
+      <text x="534.2" y="412" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">â‰ˆ7.5 SPI</text><text x="100" y="464" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">3.85mm</text>
+      <rect x="210" y="446" width="346.5" height="22" rx="6" fill="#c98f5a" stroke="none" stroke-width="0" opacity="1"/>
+      <text x="576.5" y="464" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">â‰ˆ6.6 SPI</text><text x="100" y="516" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">4mm</text>
+      <rect x="210" y="498" width="360" height="22" rx="6" fill="#c98f5a" stroke="none" stroke-width="0" opacity="1"/>
+      <text x="590" y="516" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">â‰ˆ6.3 SPI</text>
+  <text x="60" y="625" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">Drawn to relative scale. Use the millimeter pitch when comparing listings.</text>
+</svg>

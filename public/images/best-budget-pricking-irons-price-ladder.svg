@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-labelledby="title desc">
+<title id="title">Budget pricking iron price ladder</title>
+<desc id="desc">A price ladder showing a WUTA single head at $8.33, a WUTA one-piece at $14.79, a MOZHE at $22.86, and a WUTA full set at about $162.</desc>
+<rect x="0" y="0" width="1200" height="675" rx="0" fill="#f7efe4" stroke="none" stroke-width="0" opacity="1"/>
+<circle cx="1040" cy="120" r="220" fill="#efe2d2" stroke="none" stroke-width="0"/>
+    <text x="64" y="82" font-family="'Segoe UI', Arial, sans-serif" font-size="18" font-weight="700" fill="#5e2f12" text-anchor="start" opacity="1" letter-spacing="3">PRICE LADDER</text>
+    <text x="64" y="148" font-family="Georgia, 'Times New Roman', serif" font-size="52" font-weight="700" fill="#241a14" text-anchor="start" opacity="1">Buy the entry point, not the system.</text>
+    <text x="64" y="194" font-family="'Segoe UI', Arial, sans-serif" font-size="20" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">Prices at time of writing.</text>
+  <rect x="67" y="239" width="1080" height="370" rx="18" fill="#000" stroke="none" stroke-width="0" opacity="0.06"/><rect x="60" y="230" width="1080" height="370" rx="18" fill="#fffaf2" stroke="#d9cbbd" stroke-width="1.5" opacity="1"/>
+  <rect x="120" y="530" width="900" height="12" rx="6" fill="#d9cbbd" stroke="none" stroke-width="0" opacity="1"/>
+  <rect x="120" y="480" width="160" height="44" rx="8" fill="#e6c39f" stroke="none" stroke-width="0" opacity="1"/>
+  <rect x="310" y="420" width="160" height="104" rx="8" fill="#c98f5a" stroke="none" stroke-width="0" opacity="1"/>
+  <rect x="500" y="350" width="160" height="174" rx="8" fill="#8a4b1f" stroke="none" stroke-width="0" opacity="1"/>
+  <rect x="690" y="270" width="160" height="254" rx="8" fill="#5e2f12" stroke="none" stroke-width="0" opacity="1"/>
+  <text x="200" y="510" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#241a14" text-anchor="middle" opacity="1">$8.33</text>
+  <text x="390" y="450" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#241a14" text-anchor="middle" opacity="1">$14.79</text>
+  <text x="580" y="380" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#fffdf9" text-anchor="middle" opacity="1">$22.86</text>
+  <text x="770" y="300" font-family="'Segoe UI', Arial, sans-serif" font-size="24" font-weight="700" fill="#fffdf9" text-anchor="middle" opacity="1">â‰ˆ$162</text>
+  <text x="200" y="565" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#5c4b3f" text-anchor="middle" opacity="1">one head</text>
+  <text x="390" y="565" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#5c4b3f" text-anchor="middle" opacity="1">one iron</text>
+  <text x="580" y="565" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#5c4b3f" text-anchor="middle" opacity="1">one iron</text>
+  <text x="770" y="565" font-family="'Segoe UI', Arial, sans-serif" font-size="14" font-weight="400" fill="#5c4b3f" text-anchor="middle" opacity="1">full set</text>
+  <text x="60" y="645" font-family="'Segoe UI', Arial, sans-serif" font-size="16" font-weight="400" fill="#5c4b3f" text-anchor="start" opacity="1">The cheapest entry is a single interchangeable head, not a complete tool.</text>
+</svg>

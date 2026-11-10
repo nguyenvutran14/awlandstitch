@@ -1,0 +1,26 @@
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=()
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Resource-Policy: same-origin
+  Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  Strict-Transport-Security: max-age=31536000; includeSubDomains
+  Cache-Control: public, max-age=0, must-revalidate
+
+# HTML (clean URLs, /404.html, XML, txt) inherits the catch-all rule above:
+# revalidate before use, regardless of file extension.
+# Fingerprinted/self-hosted assets detach the catch-all first (Cloudflare joins
+# duplicate header values with a comma), then set long-lived caching.
+/styles/*
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+/images/*
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable
+
+/og/*
+  ! Cache-Control
+  Cache-Control: public, max-age=31536000, immutable

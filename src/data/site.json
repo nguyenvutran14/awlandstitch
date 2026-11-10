@@ -1,0 +1,94 @@
+{
+  "brand": "Awl & Stitch",
+  "domain": "https://awlandstitch.pages.dev",
+  "title": "Awl & Stitch — Leathercraft Tool Guides",
+  "description": "Research-based leathercraft tool guides for US buyers: dated AliExpress prices, verified US shipping, and honest buying advice with no fake testing claims.",
+  "locale": "en-US",
+  "author": "The Awl & Stitch Editorial Team",
+  "email": "hello@awlandstitch.com",
+  "tagline": "Research-based leathercraft tool guides for US buyers",
+  "hubSlug": "best-pricking-irons",
+  "nav": [
+    { "label": "Best Pricking Irons", "href": "/best-pricking-irons/", "match": "best-pricking-irons" },
+    { "label": "Budget Picks", "href": "/best-budget-pricking-irons/", "match": "best-budget-pricking-irons" },
+    { "label": "Size Chart", "href": "/pricking-iron-size-chart/", "match": "pricking-iron-size-chart" },
+    { "label": "All Articles", "href": "/all-articles/", "match": "all-articles" },
+    { "label": "About", "href": "/about/", "match": "about" }
+  ],
+  "trustPages": [
+    { "slug": "about", "label": "About" },
+    { "slug": "contact", "label": "Contact" },
+    { "slug": "editorial-policy", "label": "Editorial Policy" },
+    { "slug": "affiliate-disclosure", "label": "Affiliate Disclosure" },
+    { "slug": "privacy-policy", "label": "Privacy Policy" },
+    { "slug": "terms", "label": "Terms of Use" }
+  ],
+  "articleMeta": {
+    "best-pricking-irons": {
+      "category": "Buying guide",
+      "order": 1,
+      "hub": true,
+      "featuredNote": "Five picks, verified US shipping, and the 3.38mm vs 3.85mm decision."
+    },
+    "best-budget-pricking-irons": {
+      "category": "Budget guide",
+      "order": 2,
+      "featuredNote": "The under-$30 tier, with the real landed cost of ordering from AliExpress."
+    },
+    "3-38mm-vs-3-85mm-pricking-irons": {
+      "category": "Comparison",
+      "order": 3,
+      "featuredNote": "Stitch look, thread pairing, and which pitch to buy first."
+    },
+    "pricking-irons-vs-stitching-chisels": {
+      "category": "Comparison",
+      "order": 4,
+      "featuredNote": "What the names actually mean in 2026, and which tool a beginner should buy."
+    },
+    "what-size-pricking-irons-for-wallets": {
+      "category": "Sizing guide",
+      "order": 5,
+      "featuredNote": "The wallet pitch, thread size, tooth count, and reverse-iron answer."
+    },
+    "pricking-iron-size-chart": {
+      "category": "Reference",
+      "order": 6,
+      "featuredNote": "mm to SPI conversions, tooth counts, and a print-friendly chart."
+    }
+  },
+  "heroImages": {
+    "best-pricking-irons": {
+      "src": "/images/best-pricking-irons-hero.svg",
+      "alt": "Diagram of a French-style pricking iron showing teeth, stitch pitch, and 45-degree tooth angle next to a diamond stitching chisel",
+      "title": "French-style pricking iron anatomy, shown next to a diamond stitching chisel"
+    },
+    "best-budget-pricking-irons": {
+      "src": "/images/best-budget-pricking-irons-hero.svg",
+      "alt": "Illustration of a budget French-style pricking iron with a price tag and a US warehouse badge",
+      "title": "Budget pricking irons under $30"
+    },
+    "3-38mm-vs-3-85mm-pricking-irons": {
+      "src": "/images/3-38mm-vs-3-85mm-pricking-irons-hero.svg",
+      "alt": "Side-by-side saddle stitch lines at 3.38mm and 3.85mm pricking iron pitch",
+      "title": "Saddle stitch lines compared at 3.38mm and 3.85mm pitch"
+    },
+    "pricking-irons-vs-stitching-chisels": {
+      "src": "/images/pricking-irons-vs-stitching-chisels-hero.svg",
+      "alt": "Diagram comparing a traditional pricking iron, a French-style stitching iron, and a diamond stitching chisel",
+      "title": "Traditional marking iron vs French-style punch-through iron vs diamond chisel"
+    },
+    "what-size-pricking-irons-for-wallets": {
+      "src": "/images/wallets-sizing-hero.svg",
+      "alt": "Illustrated wallet panel showing stitch lines at 3.38mm and 3.85mm pricking iron pitch",
+      "title": "One wallet panel, two stitch rhythms: 3.38mm vs 3.85mm pitch"
+    },
+    "pricking-iron-size-chart": {
+      "src": "/images/size-chart-hero.svg",
+      "alt": "Pricking iron size chart converting millimeter pitch to stitches per inch from 1.93mm to 6mm",
+      "title": "Pitch to SPI: exact conversion and the labels sellers use"
+    }
+  },
+  "analytics": {
+    "cloudflareToken": ""
+  }
+}
