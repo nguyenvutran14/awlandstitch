@@ -38,10 +38,11 @@ The output directory is `dist/`. After a successful build and check:
 npx wrangler pages deploy dist --project-name awlandstitch --branch main
 ```
 
-The project is not deployed by this repository. When the custom domain is
-ready, update `domain` in `src/data/site.json`, rebuild, and attach the domain
-in Cloudflare Pages. Canonicals, sitemap, RSS, and OG URLs all read from that
-field (or `SITE_URL`).
+The site is live at https://awlandstitch.pages.dev (production branch: `main`).
+See `docs/08-deployment.md` for the full deployment record. When the custom
+domain is ready, update `domain` in `src/data/site.json`, rebuild, and attach
+the domain in Cloudflare Pages. Canonicals, sitemap, RSS, and OG URLs all read
+from that field (or `SITE_URL`).
 
 `public/_headers` contains security headers and long-lived cache rules for
 styles, images, and OG images. It is copied to `dist/_headers` by the build.
