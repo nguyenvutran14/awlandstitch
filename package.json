@@ -9,17 +9,13 @@
   },
   "scripts": {
     "build": "node scripts/build.mjs",
-    "preview": "wrangler dev",
+    "preview": "node scripts/serve.mjs",
     "check": "node scripts/check.mjs",
     "assets": "node scripts/generate-assets.mjs",
-    "assets:og": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/generate-og.ps1",
-    "deploy": "wrangler deploy"
+    "assets:og": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/generate-og.ps1"
   },
   "dependencies": {
     "gray-matter": "4.0.3",
     "markdown-it": "^14.3.3"
-  },
-  "devDependencies": {
-    "wrangler": "^4.159.0"
   }
 }
