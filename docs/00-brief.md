@@ -82,6 +82,32 @@ experience.
 - Final report in Vietnamese with URLs, decisions, placeholders vs real,
   next actions, and honest risks.
 
+## 6b. Growth wave (Wave 2, added 2026-11-11)
+
+Owner directive: make the site look and convert like established, revenue-proven
+affiliate publishers, and accelerate time-to-first-commission. Scope:
+
+1. **Template upgrade (G5-W2):** adopt the playbook §3 conversion patterns —
+   visual pick cards with real product photos and "Best for X" badges, prominent
+   CTA buttons with price context, sticky mobile CTA, FAQ accordion, comparison
+   table upgrades, trust-forward palette. Mobile-first, CWV budget unchanged.
+2. **Wave-2 keyword research (G3-W2):** fresh long-tail research targeting real
+   buyer pain points and questions (Reddit r/Leathercraft threads, People-Also-Ask
+   patterns, YouTube/Amazon question mining). 6–8 new briefs mixing remaining
+   planned spokes with newly discovered pain-point longtails. Cannibalization
+   guards against the 6 published pages.
+3. **Real product imagery:** capture AliExpress listing image CDN URLs for the
+   featured listings (affiliate-promotion use), self-host optimized WebP copies,
+   keep SVG diagrams for explanatory graphics. No fabricated photos; alt text
+   must describe what the image actually shows.
+4. **Wave-2 content (G4-W2):** 6–8 new articles per the new briefs, each with
+   images (product photos + diagrams), FAQ from real buyer questions, internal
+   links to live pages only.
+
+Out of scope for Wave 2: paid ads, email marketing, custom domain purchase,
+real affiliate ID (owner action), hubs #2–#4 (pony/kit/beveler) unless shipping
+verification is redone — deferred to Wave 3.
+
 ## 7. Out of scope (for this run)
 
 - Paid advertising, email marketing, social automation.

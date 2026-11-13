@@ -1,7 +1,7 @@
 # Project State
 
-Last updated: 2026-11-10 (session 4)
-Current phase: 7 — Deploy (G7). G0–G6 all PASS. Waiting on owner auth.
+Last updated: 2026-11-11 (session 5 — growth wave)
+Current phase: Wave 2 (growth) — template upgrade + longtail content + real product imagery. Site LIVE from session 4.
 
 ## Decisions
 
@@ -24,7 +24,7 @@ Current phase: 7 — Deploy (G7). G0–G6 all PASS. Waiting on owner auth.
 | G4 Content | **PASS** | `content/*.md` | 6 articles + 6 trust pages; disclosures, FAQs, internal links to live pages only; image alts corrected to illustration (no fake photos) |
 | G5 Build | **PASS** | `src/`, `public/`, `dist/`, `docs/06-seo-audit.md` | 15 HTML pages; build+check PASS; seo-optimizer audit PASS WITH FIXES (2 fixes applied: duplicate hero image, check.mjs domain default); 0 P0/P1 open |
 | G6 QA | **PASS** | `docs/07-qa-report.md` | Initial FAIL (P1: contact mailbox honesty) → fixed by content-writer + site-builder (contact wording, coming-soon framing, emoji in anchors, CSP tightened, _headers cache rules) → re-audit 2026-11-10: PASS, CLEARED TO DEPLOY. 5 P2 open (tracking ID, PageSpeed post-deploy, 6 spokes, hub size, optional H1) |
-| G7 Deploy | BLOCKED | `docs/08-deployment.md` | Needs owner action: install+auth GitHub CLI (`winget install GitHub.cli` then `gh auth login`), `npx wrangler login`. Affiliate ID stays placeholder until program approval |
+| G7 Deploy | **PASS** | `docs/08-deployment.md` | LIVE 2026-11-10: https://awlandstitch.pages.dev (deploy 772cd7ad). Repo: https://github.com/nguyenvutran14/awlandstitch (public, 3 commits). CEO-verified: home/hub/sitemap all 200, sitemap 14 URLs. Redeploy: `npx wrangler pages deploy dist --project-name awlandstitch --branch main` |
 
 ## Open items (tracked, non-blocking)
 
@@ -35,9 +35,21 @@ Current phase: 7 — Deploy (G7). G0–G6 all PASS. Waiting on owner auth.
 - 20-tooth listing carrier brand undisclosed on item page — recheck at checkout.
 - pages.dev HTTP status to be logged by devops-deployer at project creation.
 
+## Wave 2 log (2026-11-11)
+
+- Owner directive: money-site template upgrade, longtail pain-point content,
+  real product images, faster path to first commission.
+- New artifacts: `docs/09-product-images.md` (product-researcher),
+  `docs/05-content-briefs/07…14-*.md` (seo-strategist), updated
+  `docs/04-seo-plan.md` (wave-2 section).
+- Image path conventions: product photos `/images/products/<product-key>-<n>.webp`
+  (keys = `src/data/affiliates.json`), diagrams `/images/<slug>-<topic>.svg`.
+
 ## Next action
 
-Owner (you) runs two auth commands, then CEO delegates devops-deployer:
-1. `winget install GitHub.cli` then `gh auth login` (choose GitHub.com → HTTPS → browser login).
-2. `npx wrangler login` in `C:\Users\PC\ali` (browser login to Cloudflare).
-Then deploy to `awlandstitch.pages.dev` + GitHub repo, verify live URL, final report.
+Owner next steps (post-launch, in priority order):
+1. Apply to AliExpress Portals/Awin; when approved, give CEO the tracking ID → site-builder fills `src/data/affiliates.json` (QA P2-6: required BEFORE monetized traffic).
+2. Buy awlandstitch.com, attach to Pages project per `docs/08-deployment.md` §7, then create the hello@ mailbox (closes the contact-page timing note).
+3. Add site to Google Search Console, submit sitemap.xml.
+4. First 3–5 backlinks (leathercraft communities, Reddit r/Leathercraft, Pinterest).
+5. Optional: set CLOUDFLARE_API_TOKEN repo secret for auto-deploy CI (§6); PageSpeed check on live URL (QA P2-7).

@@ -117,3 +117,52 @@ Full decision context: `docs/03-domain-options.md` §5 and §7. Summary of steps
 
 - **P2-6 (hard precondition before monetized traffic):** fill the AliExpress affiliate tracking ID in `src/data/affiliates.json` (`_meta.trackingId`); the build appends it automatically once non-empty.
 - P2-5 (optional home-H1 brand string), P2-7 (PageSpeed on live URL), P2-8 (6 planned spokes per the 90-day calendar), P2-9 (hub size watch).
+
+---
+
+## 9. Redeploy — 2026-11-12 (affiliate links → official AliExpress Portals s.click)
+
+**What changed:** `src/data/affiliates.json` was updated so `product.url` for the three WUTA products now uses owner-generated official AliExpress Portals s.click links (provided 2026-11-12). Those links carry their own Portals tracking, so `_meta.trackingId` stays empty and no `aff_trace_key` parameter is appended (see `_meta.trackingNote`). MOZHE and JOTUN intentionally remain on raw `aliexpress.us/item` URLs until a tracking ID is filled in. Fresh build verified before deploy: `npm run check` **PASS** (15 HTML pages, sitemap 14 URLs).
+
+**Deploy:**
+
+- Command (per §4): `npx wrangler pages deploy dist --project-name awlandstitch --branch main` (wrangler 4.159.0, run from `C:\Users\PC\ali`)
+- Result: **success** — 6 files uploaded, 52 reused (unchanged assets), no retry needed
+- **Deployment ID/URL:** `9390dae9` — https://9390dae9.awlandstitch.pages.dev
+- Production alias https://awlandstitch.pages.dev serves this deployment
+- Wrangler printed `Warning: Your working directory is a git repo and has uncommitted changes` — expected: the affiliate-link source change and doc updates were not yet committed at deploy time. **Follow-up: commit and push** (`git add -A; git commit; git push`) so the repo matches the live deploy.
+
+**Verification checklist (2026-11-12, against the production alias):**
+
+| # | Check | Result |
+|---|---|---|
+| 1 | `GET /` | **200** (0.92 s) |
+| 2 | `GET /best-pricking-irons/` (money hub) | **200** (0.74 s) |
+| 3 | `GET /what-size-pricking-irons-for-wallets/` (article) | **200** (0.67 s) |
+| 4 | `GET /sitemap.xml` | **200** — 14 URLs, all `https://awlandstitch.pages.dev/...` |
+| 5 | `GET /robots.txt` | **200** |
+| 6 | `GET /rss.xml` | **200** |
+| 7 | `GET /404.html` | **308** → `/404` (Cloudflare clean-URL redirect; expected, same as 2026-11-10) |
+| 8 | Deployment-hash URL `https://9390dae9.awlandstitch.pages.dev/` | **200** (no TLS provisioning delay this time) |
+| 9 | Hub contains `_c2RFGITl` | **yes** (6 occurrences) |
+| 10 | Hub contains `_c3OGwtMj` | **yes** (6 occurrences) |
+| 11 | Hub contains `_c3czfgtZ` | **yes** (6 occurrences) |
+| 12 | Hub s.click anchors with `rel="sponsored nofollow noopener"` + `target="_blank"` | **9/9** (0 missing) |
+| 13 | `{{aff:` placeholder tokens in served HTML | **0** |
+| 14 | Secret patterns (`ghp_`, `sk_live`, `AKIA…`, token names) in served HTML | **0** |
+| 15 | Home `<title>` / canonical / `og:url` | `Awl & Stitch — Leathercraft Tool Guides` (em-dash) / `https://awlandstitch.pages.dev/` / same |
+| 16 | Article canonical | `https://awlandstitch.pages.dev/what-size-pricking-irons-for-wallets/` |
+
+**s.click redirect resolution (2026-11-12, `curl -I` with a browser User-Agent):** all three resolve via server-side **HTTP 302** (not JavaScript-based) to AliExpress item pages, each carrying `aff_platform=portals-tool` and its own affiliate key in the trace parameters:
+
+| s.click code | 302 destination | Matches configured product |
+|---|---|---|
+| `_c2RFGITl` | `https://www.aliexpress.com/item/32856254322.html` | `wuta-1pc-french-iron` (listingId `32856254322`) ✓ |
+| `_c3OGwtMj` | `https://www.aliexpress.com/item/1005005065670235.html` | `wuta-20-tooth-iron` (listingId `1005005065670235`) ✓ |
+| `_c3czfgtZ` | `https://www.aliexpress.com/item/1005008415646222.html` | `wuta-interchangeable-head-set` (listingId `1005008415646222`) ✓ |
+
+Notes:
+
+1. The 302 destinations are the `.com` storefront; AliExpress may geo-adapt the final page per visitor. The owner should still **click-test all three links in a real browser** (confirm the product page renders and an affiliate ref is visible) before sending any paid traffic: https://s.click.aliexpress.com/e/_c2RFGITl · https://s.click.aliexpress.com/e/_c3OGwtMj · https://s.click.aliexpress.com/e/_c3czfgtZ
+2. The one `aliexpress.us/item` URL visible in the served hub HTML is MOZHE's JSON-LD `Product.url`/`Offer.url` (structured data, not an affiliate anchor) — by design, unchanged in this deploy.
+3. Response times are single-client first-fetch from the build environment; not a PageSpeed measurement (P2-7 still open for qa-reviewer).

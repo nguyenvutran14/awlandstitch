@@ -345,3 +345,77 @@ Global: every page gets `BreadcrumbList` (Home → Page). Site-wide `Organizatio
 | lwleatherworking.com "Which pricking irons" | 2026-11-07 |
 
 Briefs for the first six articles: `docs/05-content-briefs/01…06-*.md`.
+
+---
+
+## 16. Wave 2 (2026-11-11): pain-point longtail expansion
+
+Fresh research pass (2026-11-11): Reddit r/Leathercraft + r/Leatherworking + Leatherworker.net thread mining (~25 threads with URLs/dates), competitor SERP checks for 10 queries, AliExpress/DTC price spot-checks. Qualitative demand signals only — no fabricated volumes. Output: 7 briefs (`docs/05-content-briefs/07…13-wave2-*.md`) covering the planned P1/P2 pricking-iron spokes plus one new longtail.
+
+### 16.1 Wave-2 keyword table
+
+| # | Keyword | Intent | Difficulty (qualitative) | SERP gap | Winnability | Target slug |
+|---:|---|---|---|---|---|---|
+| W1 | wuta pricking irons review | C | Low-medium (forum threads, PDPs, one niche affiliate site) | No honest research-aggregated review; no AliExpress-vs-DTC price check ($14.79 vs $27.98) | High | `wuta-pricking-irons-review` |
+| W2 | aliexpress import charges / shipping to usa | I | Medium (generic guides, mostly pre-2025 and outdated) | No niche landed-cost guide with the 2026 tariff timeline (IEEPA struck down → §122 10% → §301 stack) | High | `aliexpress-leather-tools-shipping-duties` |
+| W3 | how to use pricking irons | I | Medium (two fresh 2026 competitor guides) | No guide organized by the failure modes beginners actually report (stuck needle, crooked backside, iron stuck, drift) | Medium-high | `how-to-use-pricking-irons` |
+| W4 | are cheap pricking irons worth it | I | Low (no dedicated page; the ranking answer is a 2015 blog post written when irons cost ~$200) | The $15–25 French-iron era changed the calculus; nobody has updated the answer; rich failure-mode evidence | High | `are-cheap-pricking-irons-worth-it` (NEW) |
+| W5 | what size pricking irons for belts | I | Low (product PDPs only) | No dedicated guide; RM/Sinabroks PDPs confirm 20-tooth + 4.0mm belt use in fragment form | High | `what-size-pricking-irons-for-belts` |
+| W6 | what thread for pricking irons | I | Low (thread PDPs only) | No pitch↔thread pairing guide; Reddit reports real mismatches (0.8mm too big in 3.85mm holes) | High | `what-thread-for-pricking-irons` |
+| W7 | how to polish pricking irons / pricking iron care | I | Medium (LeatherCraftHaven 2026-07-25 is strong) | Credible sources **contradict each other** on sharpening; no arrival-QC or budget-replacement-economics angle | Medium | `pricking-iron-care` |
+
+### 16.2 Slug decisions and deferrals
+
+- **Kept (6 of planned P1/P2):** rows 15–20 of §4 — shipping-duties (P1), wuta-review (P1), how-to-use (P1), belts (P2), thread (P2), care (P2).
+- **Deferred: row 14 `wuta-vs-beagle-pricking-irons`.** Beagle evidence after this pass = one retailer listing (hidesandtools.co.uk, "BEAGLE Third Generation Professional French Style", from $59.19, accessed 2026-11-11) and zero community threads. A vs page would require inventing Beagle specs/prices — playbook violation. **Re-open trigger:** ≥2 independent community threads discussing Beagle irons, or a verified Beagle listing added to `src/data/affiliates.json`.
+- **Added: `are-cheap-pricking-irons-worth-it`** (new keyword-map row 20b, intent I, MOFU). Strongest untapped pain-point cluster (5+ threads), monetizes through the budget picks, zero cannibalization (question intent vs the budget page's list intent).
+
+### 16.3 Guard updates (amend §4)
+
+1. Row 14 deferred → the two planned OUT-links to `/wuta-vs-beagle-pricking-irons/` are replaced (see 16.4). Guard 1's "brand-vs pages carry both brand names" still applies to any future vs page.
+2. **New guard 6:** "are cheap pricking irons worth it" (question intent) lives only on the new page. The budget page keeps "cheap pricking irons" as a secondary and links to the question page from its who-should-skip/upgrade section. The question page never publishes a ranked list — it links to the budget page for rankings.
+3. Rows 15–20 guards unchanged.
+
+### 16.4 Internal-link deltas (amend §9)
+
+- `/best-budget-pricking-irons/` OUT row: replace "→ /wuta-vs-beagle-pricking-irons/" with "→ /wuta-pricking-irons-review/ 'WUTA pricking irons review' (brand section) · → /are-cheap-pricking-irons-worth-it/ 'are cheap pricking irons worth it' (who-should-skip section)".
+- `/wuta-pricking-irons-review/` OUT row: replace "→ /wuta-vs-beagle-pricking-irons/" with "→ /are-cheap-pricking-irons-worth-it/ 'are cheap pricking irons worth it' (price-context section)".
+- **New row:** `/are-cheap-pricking-irons-worth-it/` | UP → hub "best pricking irons" (intro) · → `/best-budget-pricking-irons/` "best budget pricking irons" (ranked alternative) · → `/pricking-iron-care/` "how to polish pricking irons" (fix before replacing) · → `/pricking-irons-vs-stitching-chisels/` "pricking irons vs stitching chisels" (listing-language trap) · → `/how-to-use-pricking-irons/` "how to use pricking irons" (technique before blame). IN: budget, care, hub.
+- All other §9 wave-2 rows (shipping-duties, wuta-review, how-to-use, belts, thread, care) are now ACTIVE — those pages ship in this wave.
+
+### 16.5 Wave-2 publishing order (demand × winnability × monetization)
+
+| Order | Slug | Why here |
+|---:|---|---|
+| 1 | `wuta-pricking-irons-review` | BOFU money page, thinnest SERP, strongest brand demand |
+| 2 | `aliexpress-leather-tools-shipping-duties` | P1; fixes the weakest section of the budget page; evergreen 2026 tariff explainer |
+| 3 | `how-to-use-pricking-irons` | P1 TOFU authority; internal-link sink for technique queries |
+| 4 | `are-cheap-pricking-irons-worth-it` | New longtail, high winnability, funnels to budget page |
+| 5 | `what-size-pricking-irons-for-belts` | PDP-only SERP; features the $103 20-tooth pick (high AOV) |
+| 6 | `what-thread-for-pricking-irons` | PDP-only SERP; completes the sizing cluster |
+| 7 | `pricking-iron-care` | Strongest incumbent of the seven — publish last, differentiate on the sharpening controversy + arrival QC |
+
+Refresh rules from §8 apply unchanged (monthly price checks on money pages; 6-month content refresh; changelog lines).
+
+### 16.6 Wave-2 sources (accessed 2026-11-11 unless noted)
+
+| Source | Used for |
+|---|---|
+| reddit.com/r/Leathercraft/comments/13d3sao (mid-priced irons, ~May 2023) | WUTA out-of-box quality; mid-price recs |
+| reddit.com/r/Leathercraft/comments/1cy6dfu (Wuta or Kemovan, May 2024) | WUTA demand; reverse-iron confusion; taxes question |
+| reddit.com/r/Leathercraft/comments/1ay32yf (cheap starter toolkit, ~Feb 2023) | cheap-kit irons bend; WUTA $8.99 upgrade; maul advice |
+| reddit.com/r/Leathercraft/comments/2sek73 (cheap China iron review, ~2013) | budget iron ≠ bad iron evidence |
+| reddit.com/r/Leathercraft/comments/1rghjfo (Mr Tomato, r/Leatherworking, ~Jun 2026) | listing-language trap (chisels sold as "pricking irons") |
+| reddit.com/r/Leathercraft/comments/1rk7c7w, 1qqagll, 1uojonf, 1vqwfhb, 1g0viom, 19f0kg2, 1k05axn, settqu, 16moy38, zxlig5, 60krtb, 1342os0, 11qo0ed, lcmnfh, 1rdncdi, 1xcwsxb | failure modes, sizing, thread pairing, brand demand (dates per thread) |
+| leatherworker.net/forum/topic/84622 (Feb 4, 2019) | dull-out-of-box 8-tooth; polish advice |
+| leatherworker.net/forum/topic/73695 (Jan 9, 2017) | "Wuta: same as Amy Roke, cheaper"; no-name vs mid-price |
+| leatherworker.net/forum/topic/88881 (p.2, ~2020) | WUTA sticking even with wax |
+| leathercraftmasterclass.com Kevin Lee review (2020-12-21, upd. 2021-03-10); group threads 604354e3 (2019-01-05), 9c0a55ce (2019-01-26) | prong specs; 6mm bridle test; "European-style irons" terminology; Amy Roke out-of-box |
+| britishleathersupplies.co.uk how-to (2026-09-17) + ultimate guide (2025-10-15) | technique; the "you can sharpen them" position |
+| leathergenesis.com how-to (2026-10-06) | tilted-iron/angled-strike failure modes; re-enter-last-hole; edge distance |
+| leathercrafthaven.com care (2026-07-25), maintaining-tools (2026-07-18), sharpening (2026-06-11), best-irons (2026-10-03), startup-cost (2026-06-21) | "never sharpen" position; pitch+thread framing; belt context |
+| fineleatherworking.com using-pricking-irons (2013-02-14), thread guide (2024-02-09), awl guide (2024-05-22) | extraction problem; Vinymo sizing; awl-width matching |
+| en.blog.refundy.co/aliexpress-us-tariffs-de-minimis (2026-11-07) | 2026 tariff timeline; checkout "import charges" behavior |
+| rmleathersupply.com, britishleathersupplies.co.uk, junlinleather.com, craftntools.com, mollies.nz, abbeyengland.com, coinmoi.com, wutaleather.com, hidesandtools.co.uk PDPs | spec tables, needle charts, third-party WUTA/Beagle price points |
+
+Wave-2 briefs: `docs/05-content-briefs/07…13-wave2-*.md`.
